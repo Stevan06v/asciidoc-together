@@ -7,6 +7,9 @@ body{
 
 
     .CodeMirror {
+        padding-top:1vw;
         font-family: Arial, monospace;
-        font-size:30px;
+        font-size:20px;
+        width: 40%;
+
         }

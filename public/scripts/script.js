@@ -2,9 +2,10 @@ let code = document.getElementById("code");
 let html = document.getElementById("html");
 
 
+
 var myCodeMirror = CodeMirror.fromTextArea(document.getElementById("myTextarea"), {
-  mode: "asciidoc",
-  theme: "ayu-mirage",
+  mode: "javascript",
+  theme: "material-darker",
   lineWrapping:true,
   lineNumbers: true,
   //matchBrackets: true,

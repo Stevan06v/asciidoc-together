@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./scripts/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.0/mode/javascript/javascript.min.js"></script>
+    <script src="./scripts/code-mirror.js" defer></script>
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.0/codemirror.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.0/theme/material-darker.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.0/theme/dracula.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/theme/tomorrow-night-eighties.css" integrity="sha512-vbs46gpdk6Esj4wKwpYB2JUqiBPab2oHipHnyOSvprCDlRjGrX1IQxvtRxo3IthYw1DzxlIiE2ntgEnjXxJL7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/asciidoctor.js/2.4.3/css/asciidoctor.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/theme/ayu-mirage.min.css" integrity="sha512-83Qw5YjeKhwUh0sTjLweNX0/xqhfPAghTPNKP3W2VREm8waJe6rjrpGFN3zl9CMDoInarIjiAfNBE7p+NGPM7g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <h1>Adoc Converter</h1>
+
+    <p>adoc: </p><input type="text" id="code"><br>
+    <div onclick="send()">send</div><br>
+
+    <p>converted code: </p><div id="html"></div>
+
+    <textarea id="myTextarea">
+            function helloWorld() {
+            console.log("Hello, world!");
+            }
+    </textarea>
+
+ 
+</body>
+</html>

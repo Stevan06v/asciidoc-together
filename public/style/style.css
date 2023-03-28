@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+
+
+    .CodeMirror {
+        font-family: Arial, monospace;
+        font-size:30px;
+        }

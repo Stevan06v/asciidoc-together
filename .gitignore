@@ -45,5 +45,5 @@
 ### Dev ###
 **/*.idea
 **/*.vscode
-**/*.node_modules
 **/*.code-workspace
+**/*node_modules
